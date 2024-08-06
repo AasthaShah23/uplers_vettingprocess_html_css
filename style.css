@@ -1,0 +1,289 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 165px;
+    text-align: center;
+}
+.section-title{
+    height: 42px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+
+.container1 p{
+    height: 22px;
+    margin: 20px 0px;
+    padding: 0px 72px;
+    font-size: 18px;
+}
+
+.container2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.mob-block-u{
+    margin-left: 70px;
+    width: 2px;
+    background-color: #d1d1d1;
+}
+
+.mob-block-u img{
+    height: 95px;
+    width: 95px;
+    margin-left: -45px;
+    margin-bottom: 50px;
+}
+
+.mob-block{
+    margin-left: 70px;
+    width: 2px;
+    background-color: #d1d1d1;
+}
+
+.mob-block img{
+    height: 95px;
+    width: 95px;
+    margin-left: -45px;
+    margin-bottom: 50px;
+}
+
+/* .block:after {
+    content: "";
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    top: 40px;
+    left: 98px;
+    background: #d1d1d1;
+    z-index: -1;
+}
+
+.block:before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background: #ffda31;
+    position: absolute;
+    left: 108px;
+    top: 37px;
+    z-index: 1
+} */
+
+.mob-vet-heading{
+    text-align: left;
+    height: 18px;  
+    font-size: 15px;  
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mob-vet-desc{
+    height: 18px;    
+    max-width: 75%;
+    font-size: 12px;
+}
+
+.mob-yellow-section{
+    
+    background-color: #FFDA30;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 10px;
+    margin-left: 45px;
+}
+
+.mob-vet-info5{
+    margin-top: 20px;
+}
+
+.mob-flow-img-6{
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+.mob-flow-img-6 img{
+    height: 150px;
+}
+
+.mob-block1{
+    margin-left: 70px;
+    height: 85px;
+    width: 2px;
+    background-color: #d1d1d1;
+}
+
+.mob-block2{
+    margin-left: 70px;
+    height: 2px;
+    width: 80px;
+    background-color: #d1d1d1;
+}
+
+@media (min-width: 768px) { 
+    .hide{
+        display: none;
+    }
+ }
+
+ @media (max-width: 576px) { 
+
+    .mob-vet-heading{
+        padding-left: 60px;
+    }
+    
+    .mob-vet-desc{
+        padding-left: 60px;
+    }
+    .mob-yellow-section{
+        margin-left: 60px;
+    }
+    
+    .mob-block img{
+        height: 95px;
+        width: 95px;
+        margin-left: -45px;
+        margin-bottom: 80px;
+    }
+
+    .mob-flow-img-6{
+        padding-left: 130px;
+        margin-top: 30px;
+    }
+
+    .mob-block2{
+        margin-left: 70px;
+        height: 2px;
+        width: 60px;
+        background-color: #d1d1d1;
+    }
+
+  }
+
+
+   @media (min-width: 576px) and (max-width: 768px) { 
+    .mob-vet-heading{
+        padding-left: 30px;
+    }
+    
+    .mob-vet-desc{
+        padding-left: 30px;
+    }
+    .mob-yellow-section{
+        margin-left: 30px;
+    }
+
+    }
+
+/* Desktop view */
+
+    .flow-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flow-img img{
+        height: 620px;
+        width: 300px;
+    }
+
+    .yellow-section{
+        background: #ffda30;
+        padding: 7px 10px;
+        font-size: 14px;
+        border-radius: 5px;
+        width: fit-content;
+        margin-bottom: 5px;
+    }
+
+
+
+    @media (max-width: 768px) { 
+        .hide1{
+            display: none;
+        }
+     }
+
+ 
+
+    @media (min-width: 576px) and (max-width: 1200px) { 
+        .vet-heading{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.2;
+        }
+    
+        .vet-desc{
+            font-size: 12px;
+        }
+        #process2{
+            padding-top: 100px;
+        }
+
+        #process4{
+            padding-top: 30px;
+        }
+
+        #process1{
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+
+        #process3{
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+
+        #process5{
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+    
+    }
+
+        @media (min-width: 1200px) { 
+            .vet-heading{
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 1.2;
+            }
+        
+            .vet-desc{
+                font-size: 12px;
+            }
+
+            #process2{
+                padding-top: 100px;
+                margin-left: -50px;
+            }
+
+            #process4{
+                padding-top: 80px;
+                margin-left: -50px;
+            }
+
+            #process1{
+                padding-top: 50px;
+                padding-left: 70px;
+            }
+
+            #process3{
+                padding-top: 50px;
+                padding-left: 70px;
+            }
+
+            #process5{
+                padding-top: 50px;
+                padding-left: 70px;
+            }
+        }
